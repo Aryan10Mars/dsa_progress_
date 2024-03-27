@@ -16,6 +16,6 @@ class Solution(object):
 
         ans = 0
         for i in range(n):
-            ans += (min(left[i], right[i])- height[i])
+            ans += (min(left[i], right[i]) - height[i])
         
         return ans
