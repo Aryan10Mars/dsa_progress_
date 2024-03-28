@@ -1,5 +1,9 @@
 # https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/
 
+arr = [int(i) for i in input().split(',')]
+print(arr)
+
+
 class Solution(object):
     def deleteMiddle(self, head):
         
